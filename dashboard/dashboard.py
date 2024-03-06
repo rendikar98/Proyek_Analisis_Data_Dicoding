@@ -23,7 +23,7 @@ def load_data():
 
         # Load data
         #file_path = "./main_data.csv"
-        file_path = "main_data.csv"
+        file_path = "dashboard/main_data.csv"
         df = pd.read_csv(file_path)
         return df
     except FileNotFoundError:
